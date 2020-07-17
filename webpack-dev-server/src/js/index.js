@@ -1,2 +1,11 @@
 import '../css/index.css';
-console.log('Hola Mundo!');
+import text from './script';
+
+text()
+
+if(module.hot) {
+  module.hot.accept('./script.js', function() {
+    console.log('He recargado')
+    text()
+  })
+}
