@@ -1,0 +1,16 @@
+body {
+  background-image: linear-gradient(to bottom, #1F3744, #1F526F);
+  .post-css {
+    color: skyblue;
+  }
+  button {
+    background-color: white;
+    border: none;
+    padding: .7em 2em;
+    border-radius: 2em;
+    outline: none;
+    color: #233945;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
